@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Kumbh+Sans&display=swap');
+
+
+body {
+  background-color: #333;
+  font-family: 'Kumbh Sans';
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+a.nav {
+  color: #eb34c0;
+}
+
+li {
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 30px;
+  list-style-type: none;
+  display: inline;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+li:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+div.navbar {
+  /* overflow: hidden;
+  position: fixed;
+  top: 0;
+  margin-bottom: 200px; */
+}
+
+div.caser {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.caseboks {
+  text-align: center;
+  margin: 3px;
+  border-radius: 3px;
+  width: 24.5%;
+  min-width: 450px;
+  display: flex;
+}
+
+div.caseboks:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+div.caseboks_el, div.caseboks_el2 {
+  display: inline;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 2px;
+  border-radius: 3px;
+  flex-grow: auto;
+}
+
+div.caseboks_el2 {
+  flex: 1;
+}
+
+p.casename {
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  margin: 5px;
+}
+
+p.casename2 {
+  font-size: 27px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  margin: 0px;
+}
+
+p.algminiview {
+  margin: 3px auto;
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+}
+
+div.caseshowof {
+  text-align: center;
+  margin: 3px;
+  border-radius: 3px;
+}
+
+table {
+  margin: auto;
+  border-radius: 3px;
+  font-size: 25px;
+}
+
+th, td {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  padding: 7px;
+  margin: 5px;
+}
+
+
+
+form.leggtilalg {
+
+}
+
+input, button {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  width: 100%;
+  height: 30px;
+  border-radius: 2px;
+  border: solid white 2px;
+  box-sizing: border-box;
+  font-size: 22px;
+  font-family: 'Kumbh Sans';
+}
+
+button {
+  cursor: pointer;
+}
+
+a.teleportnextpage {
+  align-self: center;
+  border: solid white 10px;
+}
